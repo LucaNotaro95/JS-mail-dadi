@@ -1,4 +1,4 @@
-let mail = ["anna@gmail.com", "pietro@gmail.com", "anna@gmail.com", "fabio@gmail.com"];
+let mail = ["anna@gmail.com", "pietro@gmail.com", "matteo@gmail.com", "fabio@gmail.com"];
 
 let mail2 = [];
 
