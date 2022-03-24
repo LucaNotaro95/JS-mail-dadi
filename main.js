@@ -1,21 +1,23 @@
 let mail = ["anna@gmail.com", "pietro@gmail.com", "matteo@gmail.com", "fabio@gmail.com"];
 
 let mail2 = [];
+var a = 1;
+while(a==1)
+{
 
-do {
-
-    var a = 1;
+    
 
 
 
 
-    let verifica = prompt("Inserisci la tua mail  ");
+    let verifica = prompt ("Inserisci la tua mail");
 
 
 
     for (let i = 0; i < mail.length; i++) {
         if (mail[i] == verifica) {
             console.log("entrato nel database");
+          a=0;
         }
 
         else {
@@ -29,8 +31,9 @@ do {
     if (mail.length == mail2.length) {
 
         console.log("riprova");
-        a = 0;
+        a = 1;
+        
     }
 
 }
-while (a == 0);
+console.log(a);
