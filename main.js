@@ -9,7 +9,7 @@ do {
 
 
 
-    let verifica = prompt("Inserisci la tua  ");
+    let verifica = prompt("Inserisci la tua mail  ");
 
 
 
